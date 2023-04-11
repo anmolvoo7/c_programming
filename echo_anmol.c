@@ -2,6 +2,7 @@
 #include <stdlib.h>
 int main()
 {
-    system("echo Anmoi");
+    system("echo Anmol");
+    system("echo 'You are my Love'");
     return 0;
 }

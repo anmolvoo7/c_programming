@@ -1,0 +1,5 @@
+#!/bin/bash
+input=$1
+file_name=$(echo $input | awk -F'.' '{print $1}')
+gcc -o $file_name $input
+./$file_name
